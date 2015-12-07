@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ViewHolder">
+        <ignore path="src/id/flwi/example/gcmappdemo/MainActivity.java" />
+    </issue>
+</lint>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background ="@color/sa_green">
+ 
+    <ImageView
+        android:id="@+id/appIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="3dp"
+        android:src="@drawable/ic_action_person" />
+
+    <TextView
+        android:id="@+id/titleTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/appIcon"
+        android:layout_marginLeft="3dp"
+        android:layout_toRightOf="@id/appIcon"
+        android:text="Penumpang"
+        android:textSize="22dp" 
+        android:textColor="@color/txtColor" />
+    
+     <LinearLayout
+        android:id="@+id/lyVertica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/tvstatus"
+        android:layout_below="@+id/tvstatus"
+        android:orientation="vertical" >
+
+    </LinearLayout>
+ 
+    <TextView
+        android:id="@+id/tvstatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/titleTxt"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/titleTxt"
+        android:text="0 dl" 
+        android:textColor="@color/txtColor"/>
+
+    <TextView
+        android:id="@+id/tvStatusOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/titleTxt"
+        android:text="T" 
+        android:textColor="@color/txtColor"/>
+ 
+</RelativeLayout>

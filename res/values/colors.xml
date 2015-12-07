@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="sa_green">#F62459</color>
+    <color name="stacked_green">#E08283</color>
+    <color name="accent_green">#E08283</color>
+    <color name="pressed">#D2527F</color>
+    <color name="background">#EEEEEE</color>
+    <color name="actionTab">#D2527F</color>
+    <color name="button">#3498db</color>
+    <color name="txtBtn">#ecf0f1</color>
+    <color name="txtColor">#ecf0f1</color>
+</resources>

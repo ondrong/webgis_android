@@ -1,0 +1,112 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/background"
+    tools:context="id.webgis.webgis.GpsActivity" >
+
+    <Button
+        android:id="@+id/btnUpdate"
+        style="@color/sa_green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="21dp"
+        android:layout_marginRight="16dp"
+        android:background="@color/button"
+        android:textColor="@color/txtBtn"
+        android:text="Update" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editNopol"
+        android:layout_alignRight="@+id/btnUpdate"
+        android:text="No Polisi" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnCariLokasi"
+        android:layout_alignRight="@+id/btnUpdate"
+        android:layout_below="@+id/editNopol"
+        android:text="Nama Sopir" />
+
+    <EditText
+        android:id="@+id/editNopol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnCariLokasi"
+        android:layout_alignRight="@+id/btnUpdate"
+        android:layout_below="@+id/textView1"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editSopir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignRight="@+id/editNopol"
+        android:layout_below="@+id/textView2"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/editSopir"
+        android:text="Latitude" />
+
+    <Button
+        android:id="@+id/btnCariLokasi"
+        style="@color/sa_green"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnUpdate"
+        android:layout_alignBottom="@+id/btnUpdate"
+        android:layout_alignParentLeft="true"
+        android:background="@color/button"
+        android:textColor="@color/txtBtn"
+        android:text="Lihat" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/editLatitude"
+        android:text="Longitude" />
+
+    <EditText
+        android:id="@+id/editLatitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignRight="@+id/editSopir"
+        android:layout_below="@+id/textView4"
+        android:ems="10"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editLongitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignRight="@+id/editLatitude"
+        android:layout_below="@+id/textView3"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+</RelativeLayout>

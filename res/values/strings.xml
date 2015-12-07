@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Webgis</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Webgis</string>
+    <string name="title_activity_tes">Webgis</string>
+    <string name="action_settings">Settings</string>
+    <string name="registration">Registration</string>
+    <string name="title_activity_main_order">MainOrder</string>
+    <string name="title_activity_gps">Geolocation</string>
+
+</resources>

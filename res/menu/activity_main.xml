@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+   <item
+        android:id="@+id/action_regis"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Register"/>
+    <item
+        android:id="@+id/action_unreg"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Unregister"/>
+    
+    <item 
+        android:id="@+id/gps" 
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Geolocation" />
+</menu>

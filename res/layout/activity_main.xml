@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txtPengumuman"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Daftar Order :" />
+
+    <ListView
+        android:id="@+id/listOrder"
+        android:layout_width="match_parent"
+        android:layout_height="103dp"
+        android:layout_weight="0.04" >
+    </ListView>
+
+    <TextView
+        android:id="@+id/txtStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Order Status :" />
+
+    <ListView
+        android:id="@+id/listTerima"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:layout_weight="0.04" >
+
+    </ListView>
+
+</LinearLayout>
